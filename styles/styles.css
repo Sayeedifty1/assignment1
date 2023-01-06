@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.banner {
+    background-image: url('../images/banner/banner2.png');
+    background-size: cover;
+    height: 800px;
+    padding: 30px;
+
+}
+
+.banner-heading {
+    font-weight: 800px;
+    padding-top: 100px;
+    font-size: 64px;
+    margin-left: 50%;
+    padding: 250px 100px 20px 0;
+
+}
+
+.believe {
+    /* color: rgb(182, 7, 7); */
+    color: green;
+}
+
+.description {
+    margin-left: 50%;
+    padding: 10px 100px 30px 0;
+    color: #444343;
+}
+
+.contact-btn {
+    margin-left: 50%;
+    background-color: rgb(182, 7, 7);
+
+    border: 0;
+    border-radius: 7px;
+    height: 50px;
+    width: 120px;
+    color: white;
+
+    font-size: 18px;
+}
+
+/* section 2 */
+.failure {
+    display: flex;
+    margin-top: 130px;
+    max-width: 1100px;
+    margin-left: 15%;
+    gap: 90px;
+}
+
+.failure-heading {
+    /* margin-left: 50%; */
+    margin-top: 300px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin-left: 10%;
+}
+
+.failure-description {
+    margin-bottom: 15px;
+    color: #444343;
+    margin-left: 10%;
+}
+
+.failure-list {
+    /* margin-left: 50%; */
+    list-style: '\2713';
+    color: #444343;
+    margin-left: 5%;
+}
+
+/* plans section */
+.plan-heading {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.tasks .list {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    list-style: none;
+}
+
+.img-skill {
+    margin-left: 20%;
+}
+
+.skill-head {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 15px;
+}
+
+.sikk-des {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 15px;
+
+}
+
+#gradient-bg {
+
+
+    margin-top: 130px;
+    background-image: url('../images/gradient3.png'), url('../images/watch.png');
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 100px;
+
+
+
+}
+
+.mindset {
+    margin-left: 18%;
+    padding: 30px 60px;
+}
+
+.gradient-head {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+
+
+}
+
+.common-btn {
+    background-color: white;
+
+    border: 0;
+    border-radius: 7px;
+    height: 50px;
+    width: 120px;
+    color: orangered;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+footer {
+    background: #151414;
+    height: 550px;
+}
+
+.ending {
+    display: flex;
+    gap: 350px;
+    padding: 230px 230px 0 230px;
+}
+
+.future h4 {
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.future p {
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.subscribe h5 {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+
+}
+
+.subscribe input {
+    margin-bottom: 15px;
+    background-color: #151414;
+    ;
+    width: 320px;
+    height: 50px;
+    border-radius: 5px;
+    border: #FFFFFF;
+    box-sizing: border-box;
+}
