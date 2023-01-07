@@ -71,11 +71,14 @@
 
 .failure-list {
     /* margin-left: 50%; */
-    list-style: '\2713';
+    /* list-style: '\2713'; */
     color: #444343;
-    margin-left: 5%;
+    list-style: none;
 }
-
+ul li:before { 
+    content: '✓ '; 
+   color: rgb(0, 255, 0); 
+}
 /* plans section */
 .plan-heading {
     margin-top: 130px;
@@ -158,6 +161,21 @@
     font-size: 20px;
 }
 
+.developer {
+    background: #FFFED5;
+    text-align: center;
+    width: 1150px;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 200px;
+
+}
+.developer h2 {
+    padding-top: 50px;
+    font-weight: 700;
+font-size: 65px;
+}
+
 footer {
     background: #151414;
     height: 550px;
@@ -192,7 +210,7 @@ footer {
 .subscribe input {
     margin-bottom: 15px;
     background-color: #151414;
-   
+
     width: 320px;
     height: 50px;
     border-radius: 5px;
